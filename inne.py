@@ -29,55 +29,50 @@ import time,random,sys,json,codecs,threading,glob,re
 #ks.login(qr=True)
 #ks.loginResult()
 
-#ka = LINETCR.LINE()
-#ka.login(qr=True)
-#ka.loginResult()
-
-#kb = LINETCR.LINE()
-#kb.login(qr=True)
-#kb.loginResult()
-
-#ko = LINETCR.LINE()
-#ko.login(qr=True)
-#ko.loginResult()
-
-#ke = LINETCR.LINE()
-#ke.login(qr=True)
-#ke.loginResult()
-
-#ku = LINETCR.LINE()
-#ku.login(qr=True)
-#ku.loginResult()
-
 cl = LINETCR.LINE()
-cl.login(token="ElTh2VmkqtTqQv2pAQo2.x1piVMsNjKiz41QUTpXSOG.Gg0yBS076/P7DY6ehmaJCHzJzILkQ+SKOiaR+q/VEYs=")
+cl.login(token="")
+
+kj = LINETCR.LINE()
+kj.login(token="")
+
+kd = LINETCR.LINE()
+kd.login(token="")
+
+kn = LINETCR.LINE()
+kn.login(token="")
+
+km = LINETCR.LINE()
+km.login(token="")
+
+kl = LINETCR.LINE()
+kl.login(token="")
 
 ki = LINETCR.LINE()
-ki.login(token="El7HclRI1URlNhd15d80.GNx6D24spzvQdkIDrlBTWa.mYOVaKQuDNQ3PZrimxwxQsctVre3iolYNkePTys/u3s=")
+ki.login(token="")
 
 kk = LINETCR.LINE()
-kk.login(token="ElJP6BtwxYDmGhAgYWC6.J0wZ/8qSh0AzGVC64sKsPG.idYG4b/Kf/AuntUZ86e/BiGpZE3ZU646gElV+Z2miY0=")
+kk.login(token="")
 
 kc = LINETCR.LINE()
-kc.login(token="EleZ7HIQj55s9Z3xUaB1.HcA8Q4jjUyZuuZwpIq9/mq.VVoWNc8OwX3TsjHqJ1TuNSQd+66EuxiLniWVYkUsOTg=")
+kc.login(token="")
 
 ks = LINETCR.LINE()
-ks.login(token="ElldG0uWxOv2xCRFAEHa.fWz/asw+ti4D1VWYXShbQG.hoPxgyIeoqxiT68qKHBR9UvfphEbsprzBIS4deMzT+4=")
+ks.login(token="")
 
 ka = LINETCR.LINE()
-ka.login(token="ElZwJvvl4UcL3PB181w0.1fLsnT573eIy0KFQZHvv4a.S4muPhRSL3ftIMQSzDvJQzPnOjiBd27omr4JyAsFgnA=")
+ka.login(token="")
 
 kb = LINETCR.LINE()
-kb.login(token="El7yjA8ABxWtupIZLDR1.ATjXQyMgqM9K9x1kGFnJOq.t+Rdn3bpAprXP1vnYjMciruxo9yljhwC/wRKcN7DSHI=")
+kb.login(token="")
 
 ko = LINETCR.LINE()
-ko.login(token="ElYK49mNEDqeO9C26t1c.Ygf8nIK1SFDSqt2rCPobFa.30RO+GAml2xn37nbcFVSyUAi1HCyEa1YdUbnQfEFJRI=")
+ko.login(token="")
 
 ke = LINETCR.LINE()
-ke.login(token="ElVBEViGk1xH4BhNXlm0.GYseTEX2TNlYIAKafv1RCa.74LoemImkA5nMAT9RfzslJ9ehfF3jM0oEjKx6zpMBX4=")
+ke.login(token="")
 
 ku = LINETCR.LINE()
-ku.login(token="Elr5ryj1tmMEhtQ7V1oe.bcgxJElZztrR+NbR8oH0tG.LKJk3GU4aspz82ojIAOFLaWeddAY/8QchUsub0KUZow=")
+ku.login(token="")
 
 cl
 
@@ -85,19 +80,19 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""   ᴙᴀᴅᴉᴀᴎᴄᴈ Key
+helpMessage ="""   Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶ Key
 
 Selfbot by:
-♚͜͡r̶a̶d̶i̶a̶n̶c̶e̶̶̶͜͡ ̶{♔>ᵗᵉᵅᵐ ᵇᵒᵗ
+♚͜͡{♔>Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶ ᵇᵒᵗ
 
 􀔃􀅕❄Selfbot command❄
 
-➺Radiance
+➺dika
 ➺Jam update
 ➺Gid
 ➺Ginfo
-➺Mid radiance
-➺Radiance 1/2/3/4
+➺Mid dika
+➺Dika 1/2/3/4
 ➺Respon
 ➺Speedbot
 ➺Up / spam chat
@@ -125,8 +120,8 @@ Selfbot by:
 ➺Radiance Join
 ➺Radiance bye
 
- support by ♕⛥ᶦ͎͎͎ᵑ͎͎ᵑ͎͎ᵉ͎͎ ‐͎͎ᶠ͎͎ᵉ͎͎ᵇ͎͎ᴿ͎͎ᵎ͎͎ᵃ͎͎ᵑ͎͎ᵎ͎͎⛥♕
-Creator : http://line.me/ti/p/~inne.1199
+ support by ♕Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶♕
+Creator : http://line.me/ti/p/~akun_dika1
 
 """
 
@@ -141,21 +136,26 @@ Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
 [No Joinned]
 -- Joinn on/off
 """
-KAC=[cl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
-DEF=[cl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
-mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = ks.getProfile().mid
-Emid = ka.getProfile().mid
-Fmid = kb.getProfile().mid
-Gmid = ko.getProfile().mid
-Hmid = ke.getProfile().mid
-Imid = ku.getProfile().mid
+KAC=[cl,kj,kd,kn,km,kl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
+DEF=[cl,kj,kd,kn,km,kl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
+mid  = cl.getProfile().mid
+Amid = kj.getProfile().mid
+Bmid = kd.getProfile().mid
+Cmid = kn.getProfile().mid
+Dmid = km.getProfile().mid
+Emid = kl.getProfile().mid
+Fmid = ki.getProfile().mid
+Gmid = kk.getProfile().mid
+Hmid = kc.getProfile().mid
+Imid = ks.getProfile().mid
+Jmid = ka.getProfile().mid
+Kmid = kb.getProfile().mid
+Lmid = ko.getProfile().mid
+Mmid = ke.getProfile().mid
+Nmid = ku.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
-admin=["u5f53c8be64a7264219e35aaeb4fc6ca2"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid]
+admin=["mid"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -171,16 +171,21 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"🅱Inne.Febriani",
-    "cName2":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
-    "cName3":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
-    "cName4":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
-    "cName5":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
-    "cName6":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
-    "cName7":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
-    "cName8":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
-    "cName9":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
-    "cName10":"ᴙᴀᴅᴉᴀᴎᴄᴈ",
+    "cName":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName2":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName3":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName4":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName5":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName6":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName7":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName8":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName9":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName10":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName11":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName12":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName13":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName14":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
+    "cName15":"Q͂ ̈́ ̈́͂ ̶d̶̶i̶̶k̶̶a̶",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -372,8 +377,62 @@ def bot(op):
                     ku.acceptGroupInvitationByTicket(op.param1,Ti)
                     X.preventJoinByTicket = True
                     cl.updateGroup(X)
-                    Ti = cl.reissueGroupTicket(op.param1)        
-
+                    Ti = cl.reissueGroupTicket(op.param1) 
+			
+            if op.param3 in Jmid:
+                if op.param2 in mid:
+                    X = cl.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1)
+                    ku.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1) 
+			
+	   if op.param3 in Kmid:
+                if op.param2 in mid:
+                    X = cl.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1)
+                    ku.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1)
+			
+           if op.param3 in Lmid:
+                if op.param2 in mid:
+                    X = cl.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1)
+                    ku.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1) 
+			
+           if op.param3 in Mmid:
+                if op.param2 in mid:
+                    X = cl.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1)
+                    ku.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1) 
+			
+	   if op.param3 in Nmid:
+                if op.param2 in mid:
+                    X = cl.getGroup(op.param1)
+                    X.preventJoinByTicket = False
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1)
+                    ku.acceptGroupInvitationByTicket(op.param1,Ti)
+                    X.preventJoinByTicket = True
+                    cl.updateGroup(X)
+                    Ti = cl.reissueGroupTicket(op.param1) 
         if op.type == 13:
             print op.param1
             print op.param2
@@ -501,6 +560,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(G)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -545,6 +609,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(X)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -589,6 +658,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(X)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+		    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -632,6 +706,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(X)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+		    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -675,6 +754,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(X)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+		    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -717,6 +801,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(X)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -759,6 +848,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(X)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+		    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -801,6 +895,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(X)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+		    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -842,6 +941,11 @@ def bot(op):
                     random.choice(KAC).updateGroup(X)
                     Ti = random.choice(KAC).reissueGroupTicket(op.param1)
                     cl.acceptGroupInvitationByTicket(op.param1,Ti)
+		    kj.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kd.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kn.acceptGroupInvitationByTicket(op.param1,Ti)
+                    km.acceptGroupInvitationByTicket(op.param1,Ti)
+                    kl.acceptGroupInvitationByTicket(op.param1,Ti)
                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
                     kk.acceptGroupInvitationByTicket(op.param1,Ti)
                     kc.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -1181,6 +1285,11 @@ def bot(op):
                                     'PRDTYPE': 'THEME',
                                     'MSGTPL': '12'}
                 msg.text = None
+                kj.sendMessage(msg)
+		kd.sendMessage(msg)
+                kn.sendMessage(msg)
+                km.sendMessage(msg)
+                kl.sendMessage(msg)
                 ki.sendMessage(msg)
                 kk.sendMessage(msg)
                 kc.sendMessage(msg)
@@ -1386,6 +1495,11 @@ def bot(op):
                 random.choice(KAC).sendText(msg.to, msg.from_)
             elif "Mid Radiance" == msg.text:
                 cl.sendText(msg.to,mid)
+                kj.sendText(msg.to,Amid)
+                kd.sendText(msg.to,Bmid)
+                kn.sendText(msg.to,Cmid)
+                km.sendText(msg.to,Dmid)
+                kl.sendText(msg.to,Emid)
                 ki.sendText(msg.to,Amid)
                 kk.sendText(msg.to,Bmid)
                 kc.sendText(msg.to,Cmid)
@@ -1445,6 +1559,11 @@ def bot(op):
                  t = cl.getAllContactIds()
                  for manusia in t:
                       cl.sendText(manusia, (bctxt))
+		      kj.sendText(manusia, (bctxt))
+                      kd.sendText(manusia, (bctxt))
+                      kn.sendText(manusia, (bctxt))
+                      km.sendText(manusia, (bctxt))
+                      kl.sendText(manusia, (bctxt))
                       ki.sendText(manusia, (bctxt))
                       kk.sendText(manusia, (bctxt))
                       kc.sendText(manusia, (bctxt))
@@ -2208,6 +2327,16 @@ def bot(op):
                         cl.updateGroup(G)
                         invsend = 0
                         Ticket = cl.reissueGroupTicket(msg.to)
+	                kj.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.2)
+                        kd.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.2)
+                        kn.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.2)
+                        km.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.2)
+                        kl.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.2)
                         ki.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.2)
                         kk.acceptGroupInvitationByTicket(msg.to,Ticket)
@@ -2292,6 +2421,11 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
+                        kj.leaveGroup(msg.to)
+		        kd.leaveGroup(msg.to)
+                        kn.leaveGroup(msg.to)
+                        km.leaveGroup(msg.to)
+                        kl.leaveGroup(msg.to)
                         ki.leaveGroup(msg.to)
                         kk.leaveGroup(msg.to)
                         kc.leaveGroup(msg.to)
@@ -2390,7 +2524,7 @@ def bot(op):
                         matched_list+=filter(lambda str: str == tag, gMembMids)
                     if matched_list == []:
                         kk.sendText(msg.to,"Selamat tinggal")
-                        kc.sendText(msg.to,"Jangan masuk lagi􀨁􀆷devil smile􏿿")
+                        kc.sendText(msg.to,"Nahh, 􀆷smile􏿿")
                         return
                     for jj in matched_list:
                         try:
@@ -2426,7 +2560,7 @@ def bot(op):
                         for target in targets:
                           if target not in Bots:
                             try:
-                                klist=[ki,kk,kc,ks,ka,kb,ko,ke,ku]
+                                klist=[kj,kd,kn,km,kl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
                                 kicker=random.choice(klist)
                                 kicker.kickoutFromGroup(msg.to,[target])
                                 print (msg.to,[g.mid])
@@ -2569,11 +2703,11 @@ def bot(op):
                 ke.sendText(msg.to,"Hi sayang 􀜁􀅔Har Har􏿿")
                 ku.sendText(msg.to,"Hi sayang 􀜁􀅔Har Har􏿿")
             elif msg.text in ["Cv say chomel pekok"]:
-                ki.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"Chomel pekok 􀜁􀅔Har Har􏿿")
+                ki.sendText(msg.to,"Chomel 􀜁􀅔Har Har􏿿")
+                kk.sendText(msg.to,"Chomel 􀜁􀅔Har Har􏿿")
+                kc.sendText(msg.to,"Chomel 􀜁􀅔Har Har􏿿")
             elif msg.text in ["#welcome"]:
-                ki.sendText(msg.to,"Selamat datang di Chivas Family Room")
+                ki.sendText(msg.to,"Selamat datang di Room")
                 kk.sendText(msg.to,"Jangan nakal ok!")
 #-----------------------------------------------
             elif msg.text in ["PING","Ping","ping"]:
@@ -2606,14 +2740,19 @@ def bot(op):
        #-------------Fungsi Respon Start---------------------#
             elif msg.text in ["Respon","respon","Respon Dong","respon dong"]:
                 cl.sendText(msg.to,"...")
-                ki.sendText(msg.to,"......")
-                kk.sendText(msg.to,"..........")
-                kc.sendText(msg.to,"..............")
-                ks.sendText(msg.to,"...................")
-                ka.sendText(msg.to,"......................")
-                kb.sendText(msg.to,"...........................")
-                ko.sendText(msg.to,"...............................")
-                ke.sendText(msg.to,"...................................")
+		kj.sendText(msg.to,"......")
+                kd.sendText(msg.to,".........")
+                kn.sendText(msg.to,"............")
+                km.sendText(msg.to,"...............")
+                kl.sendText(msg.to,"..................")
+                ki.sendText(msg.to,".....................")
+                kk.sendText(msg.to,"........................")
+                kc.sendText(msg.to,"...........................")
+                ks.sendText(msg.to,"..............................")
+                ka.sendText(msg.to,".................................")
+                kb.sendText(msg.to,"....................................")
+                ko.sendText(msg.to,".......................................")
+                ke.sendText(msg.to,"..........................................")
                 ku.sendText(msg.to,"Complete 100%")
       #-------------Fungsi Respon Finish---------------------#
 
@@ -2635,6 +2774,11 @@ def bot(op):
             elif msg.text in ["Ban"]:
                 wait["wblacklist"] = True
                 cl.sendText(msg.to,"send contact")
+		kj.sendText(msg.to,"send contact")
+                kd.sendText(msg.to,"send contact")
+                kn.sendText(msg.to,"send contact")
+                km.sendText(msg.to,"send contact")
+                kl.sendText(msg.to,"send contact")
                 ki.sendText(msg.to,"send contact")
                 kk.sendText(msg.to,"send contact")
                 kc.sendText(msg.to,"send contact")
@@ -2784,41 +2928,61 @@ def nameUpdate():
                 profile.displayName = wait["cName"]
                 cl.updateProfile(profile)
 
-                profile2 = ki.getProfile()
+                profile2 = kj.getProfile()
                 profile2.displayName = wait["cName2"]
-                ki.updateProfile(profile2)
+                kj.updateProfile(profile2)
 
-                profile3 = kk.getProfile()
+                profile3 = kd.getProfile()
                 profile3.displayName = wait["cName3"]
-                kk.updateProfile(profile3)
+                kd.updateProfile(profile3)
 
-                profile4 = kc.getProfile()
+                profile4 = kn.getProfile()
                 profile4.displayName = wait["cName4"]
-                kc.updateProfile(profile4)
+                kn.updateProfile(profile4)
 
-                profile5 = ks.getProfile()
+                profile5 = km.getProfile()
                 profile5.displayName = wait["cName5"]
-                ks.updateProfile(profile5a)
+                km.updateProfile(profile5)
 
-                profile6 = ka.getProfile()
+                profile6 = kl.getProfile()
                 profile6.displayName = wait["cName6"]
-                ka.updateProfile(profile6)
+                kl.updateProfile(profile6)
 
-                profile7 = kb.getProfile()
+                profile7 = ki.getProfile()
                 profile7.displayName = wait["cName7"]
-                kb.updateProfile(profile7)
+                ki.updateProfile(profile7)
 
-                profile8 = ko.getProfile()
+                profile8 = kk.getProfile()
                 profile8.displayName = wait["cName8"]
-                ko.updateProfile(profile8)
+                kk.updateProfile(profile8)
                 
-                profile9 = ke.getProfile()
+                profile9 = kc.getProfile()
                 profile9.displayName = wait["cName9"]
-                ke.updateProfile(profile9)
+                kc.updateProfile(profile9)
                 
-                profile10 = ku.getProfile()
+                profile10 = ks.getProfile()
                 profile10.displayName = wait["cName10"]
-                ku.updateProfile(profile10)
+                ks.updateProfile(profile10)
+		
+		profile11 = ka.getProfile()
+                profile11.displayName = wait["cName11"]
+                ka.updateProfile(profile11)
+
+                profile12 = kb.getProfile()
+                profile12.displayName = wait["cName12"]
+                kb.updateProfile(profile12)
+
+                profile13 = ko.getProfile()
+                profile13.displayName = wait["cName13"]
+                ko.updateProfile(profile13)
+
+                profile14 = ke.getProfile()
+                profile14.displayName = wait["cName14"]
+                ke.updateProfile(profile14)
+                
+                profile15 = ku.getProfile()
+                profile15.displayName = wait["cName15"]
+                ku.updateProfile(profile15)
             time.sleep(600)
         except:
             pass
