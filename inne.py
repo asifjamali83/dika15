@@ -155,7 +155,7 @@ Mmid = ke.getProfile().mid
 Nmid = ku.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Kmid,Lmid,Mmid,Nmid]
-admin=["mid"]
+admin=["u35577e52b245ace6deb64e33a301f3b0"]
 wait = {
     'contact':False,
     'autoJoin':True,
